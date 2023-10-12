@@ -8,5 +8,11 @@ for i in range(1,5):
 
 set1=set(name)
 print(set1)
-
-
+#without using loop
+a=input("Enter name: \n")
+b=input("Eneter name2: \n")
+c=input("Enter third name: \n")
+d=input("Enter fourth name :\n")
+list1=[a,b,c,d]
+set=set(list1)
+print(set)

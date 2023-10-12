@@ -30,5 +30,12 @@ if (ch>="A" and ch<="z") or (ch>="a" and ch<="z"):
 else:
     print("Given number is not alphabet")
 
+a=input("Enter name: \n")
+b=input("Eneter name2: \n")
+c=input("Enter third name: \n")
+d=input("Enter fourth name :\n")
+list1=[a,b,c,d]
+set=set(list1)
+print(set)
 
 
