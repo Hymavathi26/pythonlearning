@@ -16,3 +16,4 @@ d=input("Enter fourth name :\n")
 list1=[a,b,c,d]
 set=set(list1)
 print(set)
+
